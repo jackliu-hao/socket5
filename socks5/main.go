@@ -24,7 +24,7 @@ func main() {
 	}
 
 	server := socks5.SOCKS5Server{
-		IP:   "localhost",
+		IP:   "0.0.0.0",
 		Port: port,
 		Config: &socks5.Config{
 			AuthMethod: socks5.MethodNoAuth,
